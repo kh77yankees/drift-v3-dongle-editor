@@ -34,10 +34,10 @@ layers:
   - Ctl+RIGHT
   - END
   - PG UP
-  - ''
+  - INSERT
   - KP NUMLOCK
   - ''
-  - ''
+  - Sft+TAB
   - ''
   - ''
   - ''
@@ -62,7 +62,7 @@ layers:
   - MUTE
   - Sft+HOME
   - Ctl+BSPC
-  - ','
+  - DEL
   - Ctl+DEL
   - Sft+END
   - LEFT
@@ -76,63 +76,63 @@ layers:
   - BSPC
   raise:
   - BT CLR
-  - BT CLR
-  - BT CLR ALL
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - F6
   - F7
   - F8
   - F9
   - F10
   - F11
+  - F12
   - '&msc SCRL_UP'
   - '&bootloader'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR ALL
+  - {t: BT, h: '1'}
   - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '&mkp MCLK'
+  - Ctl+Q
+  - Ctl+W
+  - Ctl+E
+  - Ctl+R
+  - Ctl+T
+  - Ctl+Y
+  - Ctl+U
+  - Ctl+I
+  - Ctl+O
+  - Ctl+P
+  - '&mkp LCLK'
   - '&msc SCRL_DOWN'
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
-  - CAPS
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
+  - {t: BT, h: '2'}
+  - Ctl+Sft+TAB
+  - Ctl+A
+  - Ctl+S
+  - Ctl+D
+  - Ctl+F
+  - Ctl+G
+  - Ctl+H
+  - Ctl+J
+  - Ctl+K
+  - Ctl+L
   - ;
-  - '&mkp LCLK'
+  - '&mkp MCLK'
   - '&mmv MOVE_UP'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Z
-  - X
-  - C
-  - V
-  - B
+  - {t: BT, h: '0'}
+  - {t: BT, h: '3'}
+  - LSHFT
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
   - MUTE
   - MUTE
-  - N
-  - M
+  - '&mkp LCLK'
+  - '&mkp RCLK'
   - ','
   - .
   - /
@@ -146,24 +146,24 @@ layers:
   - SPACE
   - DEL
   adjust:
-  - BT CLR
-  - BT CLR
-  - BT CLR ALL
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
+  - Sft+Ctl+ESC
+  - ''
+  - AL MY COMPUTER
+  - AC HOME
+  - AL CALC
+  - ''
+  - BRI DN
+  - BRI UP
+  - PREV
+  - PP
+  - NEXT
+  - STOP
+  - AC SEARCH
+  - ''
   - '&msc SCRL_UP'
-  - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - TAB
   - Q
   - W
@@ -175,10 +175,10 @@ layers:
   - I
   - O
   - P
-  - '['
+  - '&mkp LCLK'
   - '&msc SCRL_DOWN'
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
+  - ''
   - CAPS
   - A
   - S
@@ -190,11 +190,11 @@ layers:
   - K
   - L
   - ;
-  - '&mkp LCLK'
+  - '&mkp MCLK'
   - '&mmv MOVE_UP'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - Z
   - X
   - C
@@ -204,8 +204,8 @@ layers:
   - MUTE
   - N
   - M
-  - ','
-  - .
+  - Ctl+Sft+LEFT
+  - Ctl+Sft+RIGHT
   - /
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
