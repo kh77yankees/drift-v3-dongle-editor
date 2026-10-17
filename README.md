@@ -90,6 +90,8 @@ The default layout is shown here:
 Each layer starting with the default/base:  
 ![Keymap](https://github.com/Timception/drift-v3-dongle/blob/main/keymap-drawer/drift.svg)  
 
+Each Layer Starting with the default/base: (* kh77yankees custom keymap *)
+![Keymap](https://github.com/kh77yankees/drift-v3-dongle-editor/blob/main/keymap-drawer/drift.svg)
 
 ---
 
