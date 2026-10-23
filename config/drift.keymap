@@ -126,11 +126,11 @@
 
             display-name = "adjust";
             bindings = <
-&kp LS(LC(ESC))  &none  &kp C_AL_MY_COMPUTER  &kp C_AC_HOME  &kp C_AL_CALC  &none      &kp C_BRI_DN  &kp C_BRI_UP                          &kp C_PREV  &kp C_PP   &kp C_NEXT        &kp C_STOP         &kp C_AC_SEARCH  &none           &msc SCRL_UP    &none
-&none            &none  &kp TAB               &kp Q          &kp W          &kp E      &kp R         &kp T                                 &kp Y       &kp U      &kp I             &kp O              &kp P            &mkp LCLK       &msc SCRL_DOWN  &mkp RCLK
-                 &none  &kp CAPS              &kp A          &kp S          &kp D      &kp F         &kp G                                 &kp H       &kp J      &kp K             &kp L              &kp SEMI         &mkp MCLK       &mmv MOVE_UP
-&none            &none  &none                 &kp Z          &kp X          &kp C      &kp V         &kp B         &kp C_MUTE  &kp C_MUTE  &kp N       &kp M      &kp RC(RS(LEFT))  &kp RC(RS(RIGHT))  &kp FSLH         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
-                                                                            &kp LSHFT  &kp SPACE     &trans                                &trans      &kp SPACE  &kp BSPC
+&kp LS(LC(ESC))  &kp LG(H)  &kp C_AL_MY_COMPUTER  &kp C_AC_HOME  &kp C_AL_CALC  &none      &kp C_BRI_DN  &kp C_BRI_UP                          &kp C_PREV  &kp C_PP   &kp C_NEXT        &kp C_STOP         &kp C_AC_SEARCH  &none           &msc SCRL_UP    &none
+&none            &none      &kp TAB               &kp Q          &kp W          &kp E      &kp R         &kp T                                 &kp Y       &kp U      &kp I             &kp O              &kp P            &mkp LCLK       &msc SCRL_DOWN  &mkp RCLK
+                 &none      &kp CAPS              &kp A          &kp S          &kp D      &kp F         &kp G                                 &kp H       &kp J      &kp K             &kp L              &kp SEMI         &mkp MCLK       &mmv MOVE_UP
+&none            &none      &none                 &kp Z          &kp X          &kp C      &kp V         &kp B         &kp C_MUTE  &kp C_MUTE  &kp N       &kp M      &kp RC(RS(LEFT))  &kp RC(RS(RIGHT))  &kp FSLH         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+                                                                                &kp LSHFT  &kp SPACE     &trans                                &trans      &kp SPACE  &kp BSPC
             >;
 
             sensor-bindings =
