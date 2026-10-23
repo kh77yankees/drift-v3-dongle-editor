@@ -147,7 +147,7 @@ layers:
   - DEL
   adjust:
   - Sft+Ctl+ESC
-  - ''
+  - Gui+H
   - AL MY COMPUTER
   - AC HOME
   - AL CALC
