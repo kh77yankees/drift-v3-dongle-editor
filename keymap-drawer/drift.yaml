@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: drift}
 layers:
-  base: [ESC, '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', BSPC, BSPC, Ctl+C, Sft+Gui+S, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', ']', \, LGUI,
-    CAPS, '&SOCD A', S, '&SOCD D', F, G, H, J, K, L, ;, '''', ENTER, Ctl+V, LCTRL, LSHIFT, Z, X, C, V, B, MUTE, MUTE, N, M, ',', ., /, RSHIFT, RCTRL, DEL, LALT, SPACE,
-    lower, raise, SPACE, RSHIFT]
+  base: [ESC, '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', BSPC, BSPC, Sft+Gui+S, Ctl+C, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', ']', \, Ctl+V,
+    LSHIFT, '&SOCD A', S, '&SOCD D', F, G, H, J, K, L, ;, '''', ENTER, CAPS, LEFT GUI, LCTRL, Z, X, C, V, B, MUTE, MUTE, N, M, ',', ., /, RSHIFT, RCTRL, DEL, LALT,
+    SPACE, lower, raise, SPACE, RSHIFT]
   lower:
   - '&bootloader'
   - ESC
@@ -50,8 +50,8 @@ layers:
   - Ctl+Sft+RIGHT
   - PG DN
   - UP
-  - ''
-  - ''
+  - {t: lower, h: toggle}
+  - Gui+Z
   - LSHFT
   - ''
   - ''
@@ -76,7 +76,7 @@ layers:
   - BSPC
   raise:
   - BT CLR
-  - ''
+  - {t: BT, h: '0'}
   - F1
   - F2
   - F3
@@ -93,7 +93,7 @@ layers:
   - '&bootloader'
   - BT CLR ALL
   - {t: BT, h: '1'}
-  - TAB
+  - Ctl+TAB
   - Ctl+Q
   - Ctl+W
   - Ctl+E
@@ -121,7 +121,7 @@ layers:
   - ;
   - '&mkp MCLK'
   - '&mmv MOVE_UP'
-  - {t: BT, h: '0'}
+  - {t: raise, h: toggle}
   - {t: BT, h: '3'}
   - LSHFT
   - Ctl+Z
@@ -151,7 +151,7 @@ layers:
   - AL MY COMPUTER
   - AC HOME
   - AL CALC
-  - ''
+  - Gui+;
   - BRI DN
   - BRI UP
   - PREV
@@ -192,7 +192,7 @@ layers:
   - ;
   - '&mkp MCLK'
   - '&mmv MOVE_UP'
-  - ''
+  - {t: adjust, h: toggle}
   - ''
   - ''
   - Z
