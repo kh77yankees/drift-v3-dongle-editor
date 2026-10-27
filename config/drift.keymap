@@ -58,11 +58,11 @@
             //                                      | SHIFT | SPACE | LOWER |                   | RAISE | SPACE | BKSPC |
 
             bindings = <
-&kp ESC    &kp GRAVE      &kp N1      &kp N2   &kp N3  &kp N4    &kp N5     &kp N6                          &kp N7  &kp N8     &kp N9      &kp N0   &kp MINUS  &kp EQUAL   &kp BSPC   &kp BSPC
-&kp LC(C)  &kp RS(LG(S))  &kp TAB     &kp Q    &kp W   &kp E     &kp R      &kp T                           &kp Y   &kp U      &kp I       &kp O    &kp P      &kp LBKT    &kp RBKT   &kp BSLH
-           &kp LGUI       &kp CAPS    &SOCD A  &kp S   &SOCD D   &kp F      &kp G                           &kp H   &kp J      &kp K       &kp L    &kp SEMI   &kp SQT     &kp ENTER
-&kp LC(V)  &kp LCTRL      &kp LSHIFT  &kp Z    &kp X   &kp C     &kp V      &kp B   &kp C_MUTE  &kp C_MUTE  &kp N   &kp M      &kp COMMA   &kp DOT  &kp FSLH   &kp RSHIFT  &kp RCTRL  &kp DEL
-                                                       &kp LALT  &kp SPACE  &mo 1                           &mo 2   &kp SPACE  &kp RSHIFT
+&kp ESC        &kp GRAVE     &kp N1      &kp N2   &kp N3  &kp N4    &kp N5     &kp N6                          &kp N7  &kp N8     &kp N9      &kp N0   &kp MINUS  &kp EQUAL   &kp BSPC   &kp BSPC
+&kp LS(LG(S))  &kp LC(C)     &kp TAB     &kp Q    &kp W   &kp E     &kp R      &kp T                           &kp Y   &kp U      &kp I       &kp O    &kp P      &kp LBKT    &kp RBKT   &kp BSLH
+               &kp LC(V)     &kp LSHIFT  &SOCD A  &kp S   &SOCD D   &kp F      &kp G                           &kp H   &kp J      &kp K       &kp L    &kp SEMI   &kp SQT     &kp ENTER
+&kp CAPS       &kp LEFT_GUI  &kp LCTRL   &kp Z    &kp X   &kp C     &kp V      &kp B   &kp C_MUTE  &kp C_MUTE  &kp N   &kp M      &kp COMMA   &kp DOT  &kp FSLH   &kp RSHIFT  &kp RCTRL  &kp DEL
+                                                          &kp LALT  &kp SPACE  &mo 1                           &mo 2   &kp SPACE  &kp RSHIFT
             >;
 
             sensor-bindings =
@@ -81,11 +81,11 @@
             //                                        | SHIFT | SPACE | LOWER |                   | RAISE | SPACE | BKSPC |
 
             bindings = <
-&bootloader  &kp ESC  &kp KP_N1    &kp KP_N2    &kp KP_N3     &kp KP_N4        &kp KP_N5      &kp KP_N6                             &kp KP_N7         &kp KP_N8     &kp KP_N9  &kp KP_N0      &kp MINUS          &kp EQUAL  &kp BSPC    &kp BSPC
-&none        &none    &kp TAB      &kp KP_PLUS  &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp KP_EQUAL                          &kp HOME          &kp RC(LEFT)  &kp UP     &kp RC(RIGHT)  &kp END            &kp PG_UP  &kp INSERT  &kp KP_NUMLOCK
-             &none    &kp LS(TAB)  &none        &none         &none            &kp KP_DOT     &kp KP_ENTER                          &kp RS(RC(LEFT))  &kp LEFT      &kp DOWN   &kp RIGHT      &kp RC(RS(RIGHT))  &kp PG_DN  &kp UP
-&none        &none    &kp LSHFT    &none        &none         &none            &none          &none         &kp C_MUTE  &kp C_MUTE  &kp RS(HOME)      &kp RC(BSPC)  &kp DEL    &kp RC(DEL)    &kp RS(END)        &kp LEFT   &kp DOWN    &kp RIGHT
-                                                              &kp LSHFT        &kp SPACE      &trans                                &trans            &kp SPACE     &kp BSPC
+&bootloader  &kp ESC    &kp KP_N1    &kp KP_N2    &kp KP_N3     &kp KP_N4        &kp KP_N5      &kp KP_N6                             &kp KP_N7         &kp KP_N8     &kp KP_N9  &kp KP_N0      &kp MINUS          &kp EQUAL  &kp BSPC    &kp BSPC
+&none        &none      &kp TAB      &kp KP_PLUS  &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp KP_EQUAL                          &kp HOME          &kp RC(LEFT)  &kp UP     &kp RC(RIGHT)  &kp END            &kp PG_UP  &kp INSERT  &kp KP_NUMLOCK
+             &none      &kp LS(TAB)  &none        &none         &none            &kp KP_DOT     &kp KP_ENTER                          &kp RS(RC(LEFT))  &kp LEFT      &kp DOWN   &kp RIGHT      &kp RC(RS(RIGHT))  &kp PG_DN  &kp UP
+&tog 1       &kp LG(Z)  &kp LSHFT    &none        &none         &none            &none          &none         &kp C_MUTE  &kp C_MUTE  &kp RS(HOME)      &kp RC(BSPC)  &kp DEL    &kp RC(DEL)    &kp RS(END)        &kp LEFT   &kp DOWN    &kp RIGHT
+                                                                &kp LSHFT        &kp SPACE      &trans                                &trans            &kp SPACE     &kp BSPC
             >;
 
             sensor-bindings =
@@ -104,10 +104,10 @@
             //                                           | SHIFT | SPACE | LOWER |                   | RAISE | SPACE | BKSPC |
 
             bindings = <
-&bt BT_CLR      &none         &kp F1           &kp F2     &kp F3     &kp F4     &kp F5     &kp F6                             &kp F7     &kp F8     &kp F9     &kp F10    &kp F11    &kp F12         &msc SCRL_UP    &bootloader
-&bt BT_CLR_ALL  &bt BT_SEL 1  &kp TAB          &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                          &kp RC(Y)  &kp RC(U)  &kp RC(I)  &kp LC(O)  &kp RC(P)  &mkp LCLK       &msc SCRL_DOWN  &mkp RCLK
+&bt BT_CLR      &bt BT_SEL 0  &kp F1           &kp F2     &kp F3     &kp F4     &kp F5     &kp F6                             &kp F7     &kp F8     &kp F9     &kp F10    &kp F11    &kp F12         &msc SCRL_UP    &bootloader
+&bt BT_CLR_ALL  &bt BT_SEL 1  &kp LC(TAB)      &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                          &kp RC(Y)  &kp RC(U)  &kp RC(I)  &kp LC(O)  &kp RC(P)  &mkp LCLK       &msc SCRL_DOWN  &mkp RCLK
                 &bt BT_SEL 2  &kp LC(LS(TAB))  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)                          &kp LC(H)  &kp RC(J)  &kp RC(K)  &kp RC(L)  &kp SEMI   &mkp MCLK       &mmv MOVE_UP
-&bt BT_SEL 0    &bt BT_SEL 3  &kp LSHFT        &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &kp C_MUTE  &kp C_MUTE  &mkp LCLK  &mkp RCLK  &kp COMMA  &kp DOT    &kp FSLH   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+&tog 2          &bt BT_SEL 3  &kp LSHFT        &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &kp C_MUTE  &kp C_MUTE  &mkp LCLK  &mkp RCLK  &kp COMMA  &kp DOT    &kp FSLH   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
                                                                      &kp LSHFT  &kp SPACE  &trans                             &trans     &kp SPACE  &kp DEL
             >;
 
@@ -126,11 +126,11 @@
 
             display-name = "adjust";
             bindings = <
-&kp LS(LC(ESC))  &kp LG(H)  &kp C_AL_MY_COMPUTER  &kp C_AC_HOME  &kp C_AL_CALC  &none      &kp C_BRI_DN  &kp C_BRI_UP                          &kp C_PREV  &kp C_PP   &kp C_NEXT        &kp C_STOP         &kp C_AC_SEARCH  &none           &msc SCRL_UP    &none
-&none            &none      &kp TAB               &kp Q          &kp W          &kp E      &kp R         &kp T                                 &kp Y       &kp U      &kp I             &kp O              &kp P            &mkp LCLK       &msc SCRL_DOWN  &mkp RCLK
-                 &none      &kp CAPS              &kp A          &kp S          &kp D      &kp F         &kp G                                 &kp H       &kp J      &kp K             &kp L              &kp SEMI         &mkp MCLK       &mmv MOVE_UP
-&none            &none      &none                 &kp Z          &kp X          &kp C      &kp V         &kp B         &kp C_MUTE  &kp C_MUTE  &kp N       &kp M      &kp RC(RS(LEFT))  &kp RC(RS(RIGHT))  &kp FSLH         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
-                                                                                &kp LSHFT  &kp SPACE     &trans                                &trans      &kp SPACE  &kp BSPC
+&kp LS(LC(ESC))  &kp LG(H)  &kp C_AL_MY_COMPUTER  &kp C_AC_HOME  &kp C_AL_CALC  &kp LG(SEMI)  &kp C_BRI_DN  &kp C_BRI_UP                          &kp C_PREV  &kp C_PP   &kp C_NEXT        &kp C_STOP         &kp C_AC_SEARCH  &none           &msc SCRL_UP    &none
+&none            &none      &kp TAB               &kp Q          &kp W          &kp E         &kp R         &kp T                                 &kp Y       &kp U      &kp I             &kp O              &kp P            &mkp LCLK       &msc SCRL_DOWN  &mkp RCLK
+                 &none      &kp CAPS              &kp A          &kp S          &kp D         &kp F         &kp G                                 &kp H       &kp J      &kp K             &kp L              &kp SEMI         &mkp MCLK       &mmv MOVE_UP
+&tog 3           &none      &none                 &kp Z          &kp X          &kp C         &kp V         &kp B         &kp C_MUTE  &kp C_MUTE  &kp N       &kp M      &kp RC(RS(LEFT))  &kp RC(RS(RIGHT))  &kp FSLH         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+                                                                                &kp LSHFT     &kp SPACE     &trans                                &trans      &kp SPACE  &kp BSPC
             >;
 
             sensor-bindings =
